@@ -11,4 +11,4 @@ resources:
 configMapGenerator:
 - name: gatekeeper-dashboard
   files:
-    - gitops.json=gitops-dashboard.json
+    - gatekeeper.json=grafana.json
