@@ -6,7 +6,7 @@ generatorOptions:
    grafana-custom-dashboard: "true"
 
 resources:
-- https://github.com/ch-stark/dashboardtransformer/dashboards
+- github.com/ch-stark/dashboardtransformer/dashboards
 
 configMapGenerator:
 - name: gitops-dashboard
