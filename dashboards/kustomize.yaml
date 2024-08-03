@@ -1,0 +1,14 @@
+namespace: open-cluster-management-observability
+
+generatorOptions:
+ disableNameSuffixHash: true
+ labels:
+   grafana-custom-dashboard: "true"
+
+resources:
+- https://github.com/ch-stark/dashboardtransformer/dashboards
+
+configMapGenerator:
+- name: gitops-dashboard
+  files:
+    - gitops.json=gitops-dashboard.json
