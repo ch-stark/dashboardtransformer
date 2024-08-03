@@ -9,6 +9,6 @@ resources:
 - github.com/ch-stark/dashboardtransformer/dashboards
 
 configMapGenerator:
-- name: gitops-dashboard
+- name: gatekeeper-dashboard
   files:
     - gitops.json=gitops-dashboard.json
