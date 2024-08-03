@@ -5,10 +5,11 @@ generatorOptions:
  labels:
    grafana-custom-dashboard: "true"
 
-resources:
-- github.com/ch-stark/dashboardtransformer/dashboards
 
 configMapGenerator:
 - name: gatekeeper-dashboard
   files:
     - gatekeeper.json=grafana.json
+- name: rightsizing-dashboard
+  files:
+    - rightsizing.json=rightsizing.json    
