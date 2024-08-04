@@ -12,4 +12,7 @@ configMapGenerator:
     - gatekeeper.json=grafana.json
 - name: rightsizing-dashboard
   files:
-    - rightsizing.json=rightsizing.json    
+    - rightsizing.json=rightsizing.json
+- name: tekton-dashboard
+  files:
+    - tekton.json=tekton.json      
