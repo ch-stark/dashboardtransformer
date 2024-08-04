@@ -15,4 +15,7 @@ configMapGenerator:
     - rightsizing.json=rightsizing.json
 - name: tekton-dashboard
   files:
-    - tekton.json=tekton.json      
+    - tekton.json=tekton.json    
+- name: oadp-dashboard
+  files:
+    - oadp.json=oadp.json       
